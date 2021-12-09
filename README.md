@@ -1,6 +1,7 @@
 # [Full stack machine learning](https://www.youtube.com/watch?v=KdUa7QQLpng)
 - use this instead of the old one
 
+# Ruby Scraping
 ## Instructions
 1. Make directory and cd into it, make gem file
 ```
@@ -31,6 +32,24 @@ require "nokogiri"
 require "watir"
 ```
 
+5. load instance of chrome (need to have webdriver installed)
+
+```
+browser = Watir::Browser.new(:chrome)
+```
+
+## Issues
+- MissingSpecError
+
+```
+Gem::MissingSpecError: Could not find 'racc' (~> 1.4) among 189 total gem(s)
+Checked in 'GEM_PATH=/Users/oliveroliverio/.gem/ruby/2.6.0:/Library/Ruby/Gems/2.6.0:/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0', execute `gem env` for more information
+from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:311:in `to_specs'
+Caused by Gem::MissingSpecError: Gem::MissingSpecError
+from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:311:in `to_specs'
+Caused by LoadError: cannot load such file -- nokogiri
+from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+```
 
 # ----Below doen't work-----
 # [Intro to webscraping and browser automation](/Users/oliveroliverio/Downloads/CS/CS.Decypher.Media/_Intro-to-WS-Automation.mp4)
