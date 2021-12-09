@@ -1,3 +1,38 @@
+# [Full stack machine learning](https://www.youtube.com/watch?v=KdUa7QQLpng)
+- use this instead of the old one
+
+## Instructions
+1. Make directory and cd into it, make gem file
+```
+mkdir test_<date>
+cd test_<date>
+vi Gemfile
+```
+
+2. Add these lines
+
+```
+ruby '2.6.3'
+gem 'nokogiri'
+gem 'watir'
+gem 'pry'
+```
+
+3. Run pry by typing the following in terminal
+
+```
+pry
+```
+
+4. require watir and nokogiri
+
+```
+require "nokogiri"
+require "watir"
+```
+
+
+# ----Below doen't work-----
 # [Intro to webscraping and browser automation](/Users/oliveroliverio/Downloads/CS/CS.Decypher.Media/_Intro-to-WS-Automation.mp4)
 
 - Make repo
