@@ -1,5 +1,5 @@
 # [Full stack machine learning](https://www.youtube.com/watch?v=KdUa7QQLpng)
-- use this instead of the old one
+Use this instead of the old one
 
 # Ruby Scraping
 ## Instructions
@@ -49,6 +49,12 @@ Caused by Gem::MissingSpecError: Gem::MissingSpecError
 from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:311:in `to_specs'
 Caused by LoadError: cannot load such file -- nokogiri
 from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+```
+
+- install missing gem [(racc)](https://rubygems.org/gems/racc/versions/1.4.14).  Be sure to add to gem file
+
+```
+sudo gem install racc -v 1.4.14
 ```
 
 # ----Below doen't work-----
